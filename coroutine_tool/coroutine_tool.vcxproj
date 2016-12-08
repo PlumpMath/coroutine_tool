@@ -82,11 +82,14 @@
     <ClCompile Include="coroutine_tool.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="timer\AutoTimerManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coroutine_env.h" />
+    <ClInclude Include="coroutine_operator.h" />
     <ClInclude Include="coroutine_tool.h" />
     <ClInclude Include="coroutine_wrapper.h" />
+    <ClInclude Include="timer\AutoTimerManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

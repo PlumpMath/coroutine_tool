@@ -8,6 +8,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{1f474bad-5da2-4320-b8b8-a24af09aff40}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\timer">
+      <UniqueIdentifier>{bf2c83d8-2a7f-45ad-b61e-e09369ec3ac7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -19,6 +22,9 @@
     <ClCompile Include="test.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="timer\AutoTimerManager.cpp">
+      <Filter>src\timer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coroutine_tool.h">
@@ -29,6 +35,12 @@
     </ClInclude>
     <ClInclude Include="coroutine_env.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="coroutine_operator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="timer\AutoTimerManager.h">
+      <Filter>src\timer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
